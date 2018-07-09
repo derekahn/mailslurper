@@ -1,0 +1,15 @@
+version: '3.6'
+
+services:
+
+  mailslurper:
+    build: .
+    restart: always
+    container_name: mailslurper
+    ports:
+      - 2500:2500
+      - 8080:8080
+      - 8085:8085
+    # volumes:
+    # overrides default configs
+    #   - ./custom-config.json:/opt/mailslurper/config.json
