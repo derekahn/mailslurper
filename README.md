@@ -1,4 +1,4 @@
-# docker-mailslurper
+# ✉️ mailslurper 🥤
 
 A handy SMTP mail server useful for local and team application development.
 
